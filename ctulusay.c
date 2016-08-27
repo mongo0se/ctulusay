@@ -1,3 +1,4 @@
+// This is fork of cowsay.
 // Copyright 2016 The Fuchsia Authors. All rights reserved.
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
@@ -82,7 +83,7 @@ static void PrintMessage(int argc, char** argv, int longest) {
 }
 int main(int argc, char** argv) {
   if (argc == 1) {
-    printf("Usage: cowsay [message]\n");
+    printf("Usage: ctulusay [message]\n");
     return 1;
   }
   // No wordwrap because I'm too lazy.
